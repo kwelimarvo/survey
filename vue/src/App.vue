@@ -1,11 +1,10 @@
 <script>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
 import {mapState} from 'vuex'
 
 export default {
-  components: {HelloWorld},
+  // components: {HelloWorld},
 
   computed: {
     ...mapState(['user'])
@@ -16,7 +15,6 @@ export default {
 <template>
   <div>
     <router-view></router-view>
-    <HelloWorld msg="Hello Vue 3 + Vite" />
     <pre>{{user.data.name}}</pre>
   </div>
 </template>
