@@ -15,6 +15,7 @@ export default {
 
 <template>
   <div>
+    <router-view></router-view>
     <HelloWorld msg="Hello Vue 3 + Vite" />
     <pre>{{user.data.name}}</pre>
   </div>
