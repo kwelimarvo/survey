@@ -18,7 +18,9 @@ export default {
     <img alt="Vue logo" src="./assets/logo.png" />
     <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
     <pre>{{user.data.name}}</pre>
-
+    <h1 class="text-3xl font-bold bg-stone-400 underline">
+    Hello world!
+  </h1>
   </div>
 </template>
 
